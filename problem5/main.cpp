@@ -24,7 +24,7 @@ int nod(const int first, const int second)
 
 int nok(const int first, const int second)
 {
-    int _nod = nod(first, second);
+    const int _nod = nod(first, second);
     if (_nod != 0)
     {
         return second * first / _nod;
